@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="TWO WAY COMMUNICATION">
+        <div class="slds-var-m-around_medium">
+            <div> RECORD ID: {recordId} </div>
+            <lightning-button
+                label="More Details..."
+                variant="brand"
+                onclick={clickHandler}>
+            </lightning-button>
+
+            <template if:true={showModal}>
+                <c-display-detail-modal
+                    record-id={recordId}
+                    object-name={objectName}
+                    onclose={hideModal}>
+                </c-display-detail-modal>
+            </template>
+        </div>
+    </lightning-card>
+</template>
