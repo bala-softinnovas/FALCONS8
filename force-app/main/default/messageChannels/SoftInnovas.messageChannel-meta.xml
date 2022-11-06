@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>SoftInnovas</masterLabel>
+    <description>This channel is used for communication purposes between lmsCompA and lmsCompB</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This field is used to pass data</description>
+        <fieldName>lmsdata</fieldName>
+    </lightningMessageFields>
+</LightningMessageChannel>

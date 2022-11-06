@@ -50,5 +50,9 @@
         <members>Covid_Info__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>LightningMessageChannel</name>
+    </types>
     <version>55.0</version>
 </Package>
